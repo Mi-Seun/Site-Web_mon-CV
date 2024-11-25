@@ -1,0 +1,233 @@
+{
+	"type": "FeatureCollection", 
+	"features": [
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [4.747607, 45.781202]
+            }, 
+			"properties": {
+                "nom": "42 Lyon",
+                "date": "sept-oct 2024",
+                "lieu": "Charbonnières-les-Bains",
+                "type_id": "developpeur",
+                "type_nom": "Développeur informatique",
+                "zone": "Europe",
+                "activites": [
+                    "Prog algorithme<br>",
+                    "Shell Unix & C"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [4.8331, 45.7381]
+            }, 
+			"properties": {
+                "nom": "Ice Developement",
+                "date": "2023",
+                "lieu": "Lyon",
+                "type_id": "developpeur",
+                "type_nom": "Développeur Web",
+                "zone": "Europe",
+                "activites": [
+                    "Création de sites web<br>",
+                    "WordPress, php, JavaScript, mysql, CSS"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [4.8292, 45.7645]
+            }, 
+			"properties": {
+                "nom": "Minanée",
+                "date": "2007-2013",
+                "lieu": "Lyon",
+                "type_id": "restaurant",
+                "type_nom": "Management",
+                "zone": "Europe",
+                "activites": [
+                    "Gérante de restaurant",
+                    "Création de supports de communication papier & site Web, photographie"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [4.8511, 45.7717]
+            }, 
+			"properties": {
+                "nom": "Sushido",
+                "date": "2002-2007",
+                "lieu": "Lyon",
+                "type_id": "restaurant",
+                "type_nom": "Management",
+                "zone": "Europe",
+                "activites": [
+                    "Manager de restaurant"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [22.9375, -30.5595]
+            }, 
+			"properties": {
+                "nom": "ONG de bénévolat caritatif",
+                "date": "2017",
+                "lieu": "Afrique du Sud",
+                "type_id": "ong",
+                "type_nom": "Humanitaire",
+                "zone": "Afrique",
+                "activites": [
+                    "Chef d'équipe",
+                    "Aide sociale",
+                    "Cuisinière"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [-0.1278, 51.5074]
+            }, 
+			"properties": {
+                "nom": "ONG de bénévolat caritatif",
+                "date": "2018-2019",
+                "lieu": "Londres",
+                "type_id": "ong",
+                "type_nom": "Humanitaire",
+                "zone": "Europe",
+                "activites": [
+                    "Chef d'équipe",
+                    "Aide sociale",
+                    "Cuisinière"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [4.829307, 45.752643]
+            }, 
+			"properties": {
+                "nom": "Infographiste-Designer",
+                "date": "2007-2013, 2022",
+                "lieu": "Lyon",
+                "type_id": "design",
+                "type_nom": "Infographie-Design",
+                "zone": "Europe",
+                "activites": [
+                    "Création de site web, logo, carte de menu",
+                    "Restaurant Minanée, sushido, Séoul to go",
+                    "Cuisinière"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [-1.604004, 48.019324]
+            }, 
+			"properties": {
+                "nom": "en gestion de restaurant Séoul to go",
+                "date": "2022",
+                "lieu": "Rennes",
+                "type_id": "consulting",
+                "type_nom": "Consultant",
+                "zone": "Europe",
+                "activites": [
+                    "Création de site web, logo, carte de menu",
+                    "Conseil en gestion de restaurant"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [4.835991, 45.767792]
+            }, 
+			"properties": {
+                "nom": "organisatrice d’évènements",
+                "date": "",
+                "lieu": "Lyon",
+                "type_id": "management",
+                "type_nom": "Organisation",
+                "zone": "Europe",
+                "activites": [
+                    "Présidente de l’association des lyonnais coréens",
+                    "Fêtes consulaires, Japon touch",
+                    "Mode, culture, langue"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [126.870117, 37.474858]
+            }, 
+			"properties": {
+                "nom": "KIMM (Institut coréen de machines et de matériaux)",
+                "date": " ",
+                "lieu": "Séoul",
+                "type_id": "ademistration",
+                "type_nom": "Ademistration",
+                "zone": "Asie",
+                "activites": [
+                    "Secrétaire"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [126.5625, -23.885838]
+            }, 
+			"properties": {
+                "nom": "KOWWINER (Korean women's international network)", 
+                "date": "2011- ",
+                "lieu": "Sydney",
+                "type_id": "global",
+                "type_nom": "Réseaux",
+                "zone": "Oceanie",
+                "activites": [
+                    "Gérantes d’entreprises internationales"
+                ]
+            }
+		},
+		{
+			"type": "Feature", 
+			"geometry": {
+                "type": "Point", 
+                "coordinates": [16.435547, 48.136767]
+            }, 
+			"properties": {
+                "nom": "Fédération des Coréens en Europe", 
+                "date": "2011- ",
+                "lieu": "Vienne",
+                "type_id": "association",
+                "type_nom": "Réseaux",
+                "zone": "Europe",
+                "activites": [
+                    "Représentant la France"
+                ]
+            }
+		}
+	]
+}

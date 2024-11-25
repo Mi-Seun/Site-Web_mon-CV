@@ -1,0 +1,213 @@
+/* ///////////////////////////////// */
+/* ////////// presentation ///////// */
+/* ///////////////////////////////// */
+
+
+/* Set up custom color variables using CSS variables */
+:root {
+    --gray: #222;
+    --bg-color: var(--gray);
+    --black: #000; 
+    --white: #fff;
+}
+
+/* Apply basic styling to the root container */
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background-color: var(--bg-color);
+    padding: 10px;
+    opacity: 50%;
+}
+
+/* Styling for animated metro lines */
+.line {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: draw 5s infinite alternate;
+}
+
+/* Define the draw animation */
+@keyframes draw {
+    from {
+        stroke-dashoffset: 400; /* Starting position for the dash offset */
+    }
+    to {
+        stroke-dashoffset: 0; /* Ending position for the dash offset (fully drawn) */
+    }
+}
+
+.presentation {
+    background-color: var(--black);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.presentation-box {
+    position: relative;
+    z-index: 1;
+}
+
+#headingBig {
+    margin: 1rem 0 1rem 0 ;
+<<<<<<< HEAD
+    padding: 0rem 0 0  3.5rem;
+=======
+    padding: 1rem 0 0 1rem;
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    font-size: 4rem;
+    color: var(--color-1);
+} 
+
+#headingText {  
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.presentation-text {
+    margin: 0 0 0 20px;
+    padding: 1rem 0 0 1rem;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    max-width: 100%;
+    color: var(--white);
+}
+
+.presentation-text h1 {
+    margin: 1rem;
+    padding: 1rem 0 1rem;
+<<<<<<< HEAD
+    line-height: 1.1;
+    font-weight: 700;
+=======
+    font-size: 5rem;
+    line-height: 1.1;
+    font-weight: 600;
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    font-style: normal;
+    position: relative;
+    color: #fcfcfc;
+}
+
+.presentation-text h3 {
+    font-style: normal;
+<<<<<<< HEAD
+    font-weight: 500;
+=======
+    font-weight: 400;
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    font-size: 2.85rem;
+    padding-bottom: 4rem;
+    line-height: 2.5rem;
+    position: relative;
+}
+
+<<<<<<< HEAD
+.presentation-text h6 {
+=======
+.presentation-text p {
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 3rem;
+}
+
+.icon-presentation i{
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+<<<<<<< HEAD
+    font-size: 2.5rem;
+=======
+    font-size: 2rem;
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    color: var(--primary);
+
+}
+
+
+
+/* Pour les appareils mobiles */
+@media only screen and (max-width: 767px) {
+    #root {
+        opacity: none !important;
+    }
+	
+    .presentation-box {
+        padding: 2rem 0 0;
+    }
+
+    .presentation-text {
+        position: relative;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .presentation-text h1 {
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+
+    .presentation-text h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+<<<<<<< HEAD
+=======
+
+    .presentation-text p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+}
+
+/* Pour les appareils de taille moyenne et plus grands */
+@media only screen and (min-width: 768px) {
+
+    #root {
+        opacity: none !important;
+    }
+
+    .presentation-text h1 {
+        font-size: 4rem; 
+    }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    .presentation-text h3 {
+        font-size: 2.25rem; 
+        line-height: 2rem;
+    }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    .presentation-text p {
+		font-size: 14px;
+		line-height: 24px;
+    }
+<<<<<<< HEAD
+	
+=======
+
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+    .icon-presentation i{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
+}
+
+
+
