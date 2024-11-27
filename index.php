@@ -1,88 +1,3 @@
-<<<<<<< HEAD
-=======
-
-        
-        
-        <!-- My Curriculum Vitae -->
-        
-        <!-- 
-			Utilisation de HTML5, CSS3, Bootstrap5 (https://getbootstrap.com/), JavaScript, npm, nodeJs
-			
-            
-
-			Structure globale de la page :
-			
-			HEADER_________________________________________
-			| NAVlogo__              NAVmenu & burger__
-			
-			MAIN_____________________________
-			| SECTIONpresentation___________________________
-			| SECTIONskills_________________________________
-			| SECTIONexperiences____________________________
-			| SECTIONprojects_______________________________
-			| SECTIONtrainings______________________________
-			| SECTIONrecommendations________________________
-			| SECTIONmotivations____________________________
-			| SECTIONlanguages & hobbies____________________
-			| SECTIONcontact & skills used _________________
-
-			FOOTER__________________________________________
-			
-			
-			
-			
-			
-			Styles répartis en plusieurs fichiers selon la structure de la page :
-			
-			_site.css
-			HEADER______________________________________________________________
-			| _site_header.css
-			
-			MAIN________________________________________________________________
-			| | _main.css 
-			| |  
-			| | SECTIONpresentation_____________________________________________
-            | |                 | | _main_presentation.css
-			| |                 | | 
-			| | SECTIONskills___________________________________________________
-            | |                 | | _main_skill.css
-			| |                 | | 
-			| | SECTIONexperiences______________________________________________
-            | |                 | | _main_exprience.css
-			| |                 | | 
-			| | SECTIONprotfolios_______________________________________________
-            | |                 | | _main_project.css
-			| |                 | | 
-			| | SECTIONtrainings________________________________________________
-            | |                 | | _main_training.css
-			| |                 | | 
-			| | SECTIONrecommandations__________________________________________
-            | |                 | | _main_recommandation.css
-			| |                 | | 
-			| | SECTIONmotivation_______________________________________________
-            | |                 | | _main_motivation.css
-			| |                 | | 
-			| | SECTIONlanguages & hobbies______________________________________
-            | |                 | | _main_langue.css
-			| |                 | | 
-			| | SECTIONcontact & skills used____________________________________
-            | |                 | | _main_contact.css
-			
-			FOOTER______________________________
-            | | _site_footer
-
-		
-		-->
-		
-
-
-
-
-
-
-
-
->>>>>>> 6e8275a1489c51cdb28fd570481fe9facd83f92d
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,9 +21,11 @@
 	<!-- Presentation Start -->
 	<section class="presentation">
 		<div class="container">
-			<div class="presentation-box">
+				<!-- 			<div class="presentation-box">
+
 				<h2 id="headingBig">Bonjour,</h2>
-				<div class="row gx-0 ">
+				-->
+				<div class="row gx-0">
 					<div class="col-md-11 col-xxl-7 ms-auto">
 						<div class="presentation-text">
 							<h1 id="headingSmall">Mi-Sun JANG</h1>
@@ -123,19 +40,16 @@
 								<a href="tel:33782130660" class="icon-presentation">
 									<i class="fa-solid fa-phone"></i></a>
 								<a href="mailto:misun.jang@free.fr" class="icon-presentation">
-								<i class="fa-regular fa-envelope"></i></a>
+										<i class="fa-regular fa-envelope"></i></a>
+								<a href="javascript:void(0)" class="icon-presentation" id="openPdfBtn3">
+									<i class="fa-regular fa-file"></i></a>
 							</div>
-							<h6>
+							<div class="presentation-text-p">
 							Avec un parcours en développement web, design UI/UX et gestion d'entreprise, je suis une développeuse passionnée, 
 							cherchant à allier créativité et compétences techniques. Mon expertise en développement web, design graphique 
 							et gestion de projet agile me permet de créer des expériences numériques uniques, 
 							en répondant aux besoins des utilisateurs et en contribuant au succès de votre entreprise.
-							</h6>
-							<!-- 
-							<a href="#portfolio-section" class="common-btn">Découvrez mon travail</a>
-							<a href="../pages/concept.php" target="_blank" class="common-btn">Concept du site web</a>
-							<a href="../pages/codes.php" target="_blank" class="common-btn">Explications du Codes</a>
-							-->
+							</div>
 						</div>
 						
 				</div>
@@ -310,21 +224,21 @@
 				<div class="row align-items-stretch overflow-hidden mb-5 gy-1 gy-md-0 gx-1 gx-md-3 gx-lg-4">
 				<div class="col-md-9">
 					<div class="row g-1 g-md-3 g-lg-4 overflow-hidden">
-						<div class="col-8">
+						<div class="col-6">
 							<div class="portfolio-box portfolio-content pbox-left">
 							<img src="asset/images/metro/metro.jpeg" class="img-fluid" alt="portfolio">
-								<a href="pages/projet.php" class="common-btn" target="_blank" rel="noopener">
+								<a href="pages/projet.php" class="common-btn" rel="noopener">
 									<i class="fa-solid fa-computer-mouse"></i>description</a>
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-6">
 							<div class="portfolio-box portfolio-content pbox-right">
 								<img src="asset/images/metro/metro7.jpeg" class="img-fluid" alt="portfolio">
 									<a href="https://github.com/Mi-Seun" class="common-btn " target="_blank" rel="noopener">
 										<i class="fa-brands fa-github"></i>ressources sur github</a>
 									</div>
 						</div>
-						<div class="col-4">
+						<div class="col-5">
 							<div class="portfolio-box portfolio-content pbox-left">
 							<img src="asset/images/metro/metro5.jpeg" class="img-fluid" alt="portfolio">
 							<!-- 
@@ -333,14 +247,12 @@
 							-->
 						</div>
 						</div>
-						<div class="col-8 overflow-hidden">
+						<div class="col-7 overflow-hidden">
 							<div class="portfolio-box portfolio-content">
 							<img src="asset/images/metro/bus.jpeg" class="img-fluid bg-img" alt="portfolio">
-								<div class="row align-items-center h-100">
-									<div class="col-10 col-md-8 col-xxl-7 ms-auto">
-								<a href="https://www.behance.net/mi-sunjang" class="common-btn " target="_blank" rel="noopener">
+								<div class="col-10 col-md-8 col-xxl-10 ms-auto">
+									<a href="https://www.behance.net/mi-sunjang" class="common-btn " target="_blank" rel="noopener">
 									<i class="fa-brands fa-square-behance"></i>ressoureces sur behance</a>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -413,14 +325,13 @@
 				<div class="row g-0 left-row">
 				<div class="col-md-7">
 					<div class="content border-end-0">
-					<h3>Guy COURTOIS</h3>
-					<h5>CoGethers-Author, serial entrepreneur & investor</h5><br />
+					<h3>Illustrateur Stagiaire - The Happinessology Project, Paris</h3>
+					<h5>Guy COURTOIS-CoGethers-Author, serial entrepreneur & investor</h5><br />
 					<p>"Le travail de Mi-Sun a été à la hauteur de mon exigence. Au-delà de ses compétences techniques, MiSun a fait preuve de ponctualité, de rigueur, de disponibilité, d’autonomie et d'intérêt pour les tâches
 						qui lui ont été confiées. Mi-Sun a également démontré des qualités humaines, notamment d’esprit
 						d’équipe en aidant ses collègues sur leurs projets respectifs. Son désir de partage de connaissances a
 						été un réel atout pour notre équipe."</p>
-						<a href="javascript:void(0)" class="common-btn" id="openPdfBtn1">Lire la lettre recommandation</a>
-					</div>
+						<a href="javascript:void(0)" class="common-btn" id="openPdfBtn1">Lire la lettre recommandation - Cogether</a>					</div>
 				</div>
 				<div class="col-md-5">
 					<div class="img-box">
@@ -434,11 +345,10 @@
 				</div>
 				<div class="col-md-7">
 					<div class="content border-start-0">
-					<h3>Denise NOVEL</h3>
-					<h5>Directrice, centre de formation JPFA</h5><br />
+					<h3>Assistante Administrative Stagiaire-Étude sur le montage d’un projet de formation en langue, Lyon</h3>
+					<h5>Denise NOVEL-Directrice, centre de formation JPFA</h5><br />
 					<p>"Son travail a été tout à fait sérieux et satisfaisant. Mme JANG est trés agréable, dynamique et enthousiaste. Elle est pleine de ressoures et maîtrise très bien l'outil informatique et la langue française..."</p>
-						<a href="javascript:void(0)" class="common-btn" id="openPdfBtn2">Lire la lettre recommandation</a>
-					</div>
+					<a href="javascript:void(0)" class="common-btn" id="openPdfBtn2">Lire la lettre recommandation - JPFA</a>					</div>
 				</div>
 				</div>
 			</div>
@@ -451,7 +361,7 @@
 			<div class="container">
 				<div class="row g-0 left-row">
 				<div class="col-md-12">
-					<div class="content border-end-0">
+					<div class="content border-start-0">
 					<h3>Pourquoi travailler avec Mi-Sun?</h3>
 					<p>"Originaire de Corée du Sud et installée en France depuis plusieurs années, 
 						j'ai une riche expérience professionnelle. Passionnée par la cuisine, 
@@ -522,14 +432,16 @@
 								</li>
 							<li class="nav-contact-item">
 								<img src="" class="img-fluid" alt="">
-								<a class="nav-contact-link" href="tel:33782130660">
-									<i class="fa-solid fa-phone"></i>   07 82 13 06 60</a> 
-							</li>
-							<li class="nav-contact-item">
-								<img src="" class="img-fluid" alt="">
 								<a class="nav-contact-link" href="https://www.google.com/maps/place/1er+Arrondissement,+Lyon/@45.7651635,4.8180472,15z/data=!4m6!3m5!1s0x47f4eb03e81f8be3:0x508ab2ae4c218c0!8m2!3d45.7698776!4d4.8293544!16s%2Fm%2F0642cg1?entry=ttu">
 									<i class="fa-solid fa-map-location-dot"></i>   69001 Lyon, France</a>
 							</li>
+							<li class="nav-contact-item">
+								<img src="" class="img-fluid" alt="">
+								<a href="javascript:void(0)" class="nav-contact-link" id="openPdfBtn4">
+									<i class="fa-regular fa-file"></i>  CV en PDF</a>
+							</li>
+
+
 						</ul>
 					</div>
 				</div>

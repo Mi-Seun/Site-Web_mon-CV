@@ -171,15 +171,11 @@
 						<li>Tournage et montage rapide d'une minute en un jour, prouvant efficacité et qualité.</li>
 						<li>Créativité avec un équipement minimal pour un rendu professionnel, même avec des contraintes.</li>
 					</ul>
-
-					<!-- 
 					<div class="text-center mt-3">
 						<video controls width="80%">
 							<source src="../asset/video/montage_video_sur_onlineformapro.mp4" type="video/mp4">
 						</video>
 					</div> 
-					-->
-
 				</section>
 		</div>
 
