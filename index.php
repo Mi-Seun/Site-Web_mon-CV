@@ -22,7 +22,6 @@
 	<section class="presentation">
 		<div class="container">
 				<!-- 			<div class="presentation-box">
-
 				<h2 id="headingBig">Bonjour,</h2>
 				-->
 				<div class="row gx-0">
@@ -86,7 +85,7 @@
 
 
 		<!-- Skills Start -->
-		<section id="skills-section" class="contact-me position-relative overflow-hidden">
+		<section id="skills-section" class="contact-me white-bg position-relative overflow-hidden">
 			<h2 class="title text-center">Compétences</h2>
 			<div class="container">
 				<div class="row">
@@ -98,7 +97,7 @@
 							</div>
 							<div class="part-skill part2" onclick="scrollToSkill(2)">
 								<img src="asset/images/map/map12.jpg" class="img-fluid" alt="skill of designer">
-								<a href="#popUp-skill javascript:void(0)" class="common-btn">Infographiste - UI Designe</a>
+								<a href="#popUp-skill javascript:void(0)" class="common-btn">Infographiste - UI Designer</a>
 							</div>
 							<div class="part-skill part3" onclick="scrollToSkill(3)">
 								<img src="asset/images/map/world_map2.jpg" class="img-fluid" alt="skill of management">
@@ -120,9 +119,9 @@
 									<i class="fa-brands fa-js"></i>  JavaScript<br>
 									<i class="fa-brands fa-unity"></i>  Three.js<br>
 									<i class="fa-brands fa-symfony"></i>  Symfony5<br>
-									<i class="fa-brands fa-php"></i>  php<br>
+									<i class="fa-brands fa-php"></i>  PHP<br>
 									<i class="fa-solid fa-database"></i>  SQL<br>
-									<i class="fa-solid fa-server"></i>  mySql<br>
+									<i class="fa-solid fa-server"></i>  MySQL<br>
 									<i class="fa-brands fa-html5"></i>  HTML5<br>
 									<i class="fa-brands fa-css3-alt"></i>  CSS3<br>
 									<i class="fa-brands fa-wordpress-simple"></i>  Wordpress<br>
@@ -216,9 +215,55 @@
 		</section>
 			<!-- Experiences End -->
 
+		<!-- Formation Start -->
+		<section id="trainings-section" class="trainings-section white-bg position-relative overflow-hidden">
+			<h2 class="title text-center">Formations</h2>
+			<div class="container">
+				<!-- First Row -->
+				<div class="row g-0 align-items-center">
+					<div class="col-md-4">
+						<div class="img-box">
+							<img src="asset/images/photo/photo.jpg" class="img-fluid" alt="Formation 1">
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="text-trainings content">
+							<h3>La piscine prog algorithme 2024</h3>
+							<p class="detail">42 Lyon, 69260 Charbonnières-les-bains</p>
+							<h3>Formation de développeur Three.js 2024</h3>
+							<p class="detail"><a href="https://threejs-journey.com">Three.js Journey</a>, en ligne</p>
+							<h3>Diplôme développeur web & web mobile 2023</h3>
+							<p class="detail">HumanBooster, Lyon / Stage : Ice Development</p>
+							<h3>Diplôme infographiste-designer 2022</h3>
+							<p class="detail">Online Formapro, Lyon / Stage : Cogethers</p>
+						</div>
+					</div>
+				</div>
+				<!-- Second Row -->
+				<div class="row g-0 align-items-center">
+					<div class="col-md-4 order-md-2">
+						<div class="img-box">
+							<img src="asset/images/photo/asso.jpg" class="img-fluid" alt="Formation 2">
+							<a href="#part2" class="common-btn">Formation développement & design</a>
+						</div>
+					</div>
+					<div class="col-md-8 order-md-1">
+						<div class="text-trainings content">
+							<h3>Diplôme de français professionnel DELF B1 & B2 2021</h3>
+							<p class="detail">Côté Projet & ACFAL / Stage : JPFA, Lyon</p>
+							<h3>Arts plastiques 2021</h3>
+							<p class="detail">Cours d’arts plastiques, Quartier Vitalité, Lyon</p>
+							<h3>Diplôme art culinaire traditionnel japonais 2007</h3>
+							<p class="detail">Seoul Culinary Institute</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Formation End -->
 
 		<!-- Portfolio Start -->
-		<section id="portfolio-section" class="portfolio-section white-bg position-relative overflow-hidden">
+		<section id="portfolio-section" class="portfolio-section black-bg theme-dark position-relative overflow-hidden">
 			<h2 class="title text-center">Portfolio</h2>
 			<div class="container">
 				<div class="row align-items-stretch overflow-hidden mb-5 gy-1 gy-md-0 gx-1 gx-md-3 gx-lg-4">
@@ -228,14 +273,14 @@
 							<div class="portfolio-box portfolio-content pbox-left">
 							<img src="asset/images/metro/metro.jpeg" class="img-fluid" alt="portfolio">
 								<a href="pages/projet.php" class="common-btn" rel="noopener">
-									<i class="fa-solid fa-computer-mouse"></i>description</a>
+									<i class="fa-solid fa-computer-mouse"></i>Description des projets</a>
 							</div>
 						</div>
 						<div class="col-6">
 							<div class="portfolio-box portfolio-content pbox-right">
 								<img src="asset/images/metro/metro7.jpeg" class="img-fluid" alt="portfolio">
 									<a href="https://github.com/Mi-Seun" class="common-btn " target="_blank" rel="noopener">
-										<i class="fa-brands fa-github"></i>ressources sur github</a>
+										<i class="fa-brands fa-github"></i>Ressources sur GitHub</a>
 									</div>
 						</div>
 						<div class="col-5">
@@ -252,7 +297,7 @@
 							<img src="asset/images/metro/bus.jpeg" class="img-fluid bg-img" alt="portfolio">
 								<div class="col-10 col-md-8 col-xxl-10 ms-auto">
 									<a href="https://www.behance.net/mi-sunjang" class="common-btn " target="_blank" rel="noopener">
-									<i class="fa-brands fa-square-behance"></i>ressoureces sur behance</a>
+									<i class="fa-brands fa-square-behance"></i>Ressources sur Behance</a>
 								</div>
 							</div>
 						</div>
@@ -267,56 +312,6 @@
 			</div>
 		</section>
 		<!-- Portfolio End -->
-
-		<!-- Formation Start -->
-		<section id="trainings-section" class="trainings-section black-bg theme-dark position-relative overflow-hidden">
-			<h2 class="title text-center">Formations</h2>
-			<div class="container">
-				<div class="row g-0 left-row">
-				<div class="col-md-6">
-					<div class="img-box">
-						<img src="asset/images/photo/photo.jpg" class="img-fluid" alt="person">
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="content border-end-0">
-						<div id="part1" class="text-trainings part1">
-							<h3>La piscine prog algorithme 2024</h3>
-							<p class="detail text-trainings">42 Lyon, 69260 Charbonnières-les-bains</p>
-							<h3>Formation de développeur Three.js 2024</h3>
-							<p class="detail text-trainings">
-								<a href="https://threejs-journey.com">Three.js Journey,</a> en ligne</p>
-							<h3>Diplôme développeur web & web mobile 2023</h3>
-							<p class="detail text-trainings">HumanBooster, Lyon / Stage, Ice developement, Lyon</p>
-							<h3> Diplôme infographiste-designer 2022</h3>
-							<p class="detail text-trainings"> Online Formapro, Lyon / Stage, Cogethers, Lyon</p>
-						</div>
-					</div>
-				</div>
-				</div>
-				<div class="row g-0 reverse-row right-row">
-					<div class="col-md-6">
-						<div class="img-box">
-							<img src="asset/images/photo/asso.jpg" class="img-fluid" alt="person">
-							<a href="#part2 javascript:void(0)" class="common-btn">Formation developpement & design</a>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="content border-start-0">
-							<div id="part2" class="text-trainings part1">
-								<h3>Diplôme de français professionnel DELF B1 & B2 2021</h3>
-								<p class="detail text-trainings">Côté Projet & ACFAL / Stage assistante administrative, JPFA, Lyon</p>
-								<h3> Arts plastiques 2021</h3>
-								<p class="detail text-trainings">Cours d’arts plastiques, Quartier Vitalité, Lyon</p>
-								<h3>Diplôme art culinaire traditionnel japonais 2007</h3>
-								<p class="detail text-trainings">Seoul Culinary Institute</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>  
-		<!-- Formation endd -->
 
 		<!-- Recommandation Start -->
 		<section id="recommendations-section" class="recommendations-section white-bg position-relative overflow-hidden">
@@ -390,7 +385,7 @@
 					<div class="title-hobby">Loisirs</div>
 					<div class="detail-hobby">
 						<p class="nav-link" >Voyage, Sport en équipe, Cuisine, Plantes comestibles, Humanitaire, Cinéma</p>
-						<p class="nav-link" >Arts plastiques, Décoration d’intérieur, Design plantaie</p>
+						<p class="nav-link" >Arts plastiques, Décoration d’intérieur, Design plantaire</p>
 					</div>
 					</div>
 					<div class="langue-info col-md-6">

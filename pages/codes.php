@@ -54,11 +54,11 @@
 	</div>
 
 
-
+<div class="container">
 	<!-- GeoJSON Data Section -->
 	<section id="contact-section" class="contact-me position-relative overflow-hidden">
 	<h2 class="title text-center">Explications du code</h2>
-	<div class="container">
+	
 		<section id="code-section-geojson" class="mt-5">
 			<h1 class="title">Explication des Données GeoJSON</h1><br>
 			<h2>1. Données GeoJSON : expériences.geojson</h2>
